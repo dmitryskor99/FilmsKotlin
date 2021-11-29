@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="@dimen/padding_item_film"
+        android:background="@drawable/background_item_film"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/padding_item_film">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="10dp">
+
+            <ImageView
+                android:id="@+id/item_view__image_view__multimedia"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:scaleType="centerCrop" />
+
+        </androidx.cardview.widget.CardView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/padding_item_film">
+
+            <TextView
+                android:id="@+id/item_view__text_view__title_film"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/open_sans_bold"
+                android:gravity="top"
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/item_view__opening_date__title_film"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:fontFamily="@font/open_sans"
+                android:maxLines="1"
+                android:textColor="@color/gray"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/item_view__summary_short__title_film"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:ellipsize="end"
+                android:fontFamily="@font/open_sans"
+                android:maxLines="2"
+                android:paddingTop="5dp"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_view__text_view__rating"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/green"
+        android:ellipsize="end"
+        android:fontFamily="@font/open_sans_bold"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/item_View__click_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground"/>
+
+</FrameLayout>

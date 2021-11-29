@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/proj/movies/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37864583333333335" />
+        <entry key="..\:/proj/movies/app/src/main/res/drawable/background_item_film.xml" value="0.37864583333333335" />
+        <entry key="..\:/proj/movies/app/src/main/res/drawable/border.xml" value="0.37864583333333335" />
+        <entry key="..\:/proj/movies/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/proj/movies/app/src/main/res/drawable/ic_movie.xml" value="0.37864583333333335" />
+        <entry key="..\:/proj/movies/app/src/main/res/drawable/inner.xml" value="0.37864583333333335" />
+        <entry key="..\:/proj/movies/app/src/main/res/drawable/item_pressed.xml" value="0.37864583333333335" />
+        <entry key="..\:/proj/movies/app/src/main/res/drawable/round_outline_imageview.xml" value="0.37864583333333335" />
+        <entry key="..\:/proj/movies/app/src/main/res/drawable/splash.xml" value="0.37864583333333335" />
+        <entry key="..\:/proj/movies/app/src/main/res/layout/activity_app.xml" value="0.2957427536231884" />
+        <entry key="..\:/proj/movies/app/src/main/res/layout/fragment_about_film.xml" value="0.3625" />
+        <entry key="..\:/proj/movies/app/src/main/res/layout/fragment_films.xml" value="0.20260416666666667" />
+        <entry key="..\:/proj/movies/app/src/main/res/layout/fragment_fragmentt.xml" value="0.2957427536231884" />
+        <entry key="..\:/proj/movies/app/src/main/res/layout/fragment_movies.xml" value="0.33" />
+        <entry key="..\:/proj/movies/app/src/main/res/layout/fragment_splashscreen.xml" value="0.2957427536231884" />
+        <entry key="..\:/proj/movies/app/src/main/res/layout/item_film.xml" value="0.3625" />
+        <entry key="..\:/proj/movies/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.37864583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
