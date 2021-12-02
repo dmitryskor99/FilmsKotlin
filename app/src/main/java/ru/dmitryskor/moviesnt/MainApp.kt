@@ -4,6 +4,7 @@ import android.app.Application
 import android.content.Context
 import ru.dmitryskor.moviesnt.di.AppComponent
 import ru.dmitryskor.moviesnt.di.DaggerAppComponent
+import java.util.ArrayList
 
 class MainApp: Application() {
 
@@ -18,6 +19,8 @@ class MainApp: Application() {
     override fun onCreate() {
         super.onCreate()
         _appComponent = DaggerAppComponent.create()
+
+        val list: ArrayList<Int>? = null
     }
 }
 
